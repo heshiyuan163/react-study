@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 //import { Navbar, Jumbotron, Button } from 'react-bootstrap';
-import { Button,Table } from 'react-bootstrap';
+import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap/dist/css/bootstrap-theme.css';
 class App extends Component {
@@ -53,7 +53,7 @@ class App extends Component {
         render() {
             return (
                   <div>
-                      <Table striped bordered condensed hover>
+                      <table border="1">
                             <thead>
                                  <tr>
                                       <th>姓名</th>
@@ -74,8 +74,8 @@ class App extends Component {
                                 })
                             }
                            </tbody>
-                      </Table>
-                      姓名：<input type="text" ref="input_name"/><br/>
+                      </table>
+                      姓名ssssssssssssssssss：<input type="text" ref="input_name"/><br/>
                       年龄：<input type="text" ref="input_age"/><br/>
                       职业：<input type="text" ref="input_job"/><br/>
                       <Button bsStyle="primary" onClick={this.addUser}>添加</Button>
