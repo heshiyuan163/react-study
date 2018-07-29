@@ -75,7 +75,7 @@ class App extends Component {
                             }
                            </tbody>
                       </table>
-                      姓名：<input type="text" ref="input_name"/><br/>
+                      姓名ssssssssssssssssss：<input type="text" ref="input_name"/><br/>
                       年龄：<input type="text" ref="input_age"/><br/>
                       职业：<input type="text" ref="input_job"/><br/>
                       <Button bsStyle="primary" onClick={this.addUser}>添加</Button>
